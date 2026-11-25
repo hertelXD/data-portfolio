@@ -1,6 +1,6 @@
 # Data Portfolio – Aileen Hertel
 
-Projekte aus meiner Weiterbildung im Bereich Data Analytics (2026): Datenbanken mit SQL, Statistik mit R und Datenanalyse mit Python.
+Datenanalyse-Projekte mit SQL, Python und R – von der Datenbank über die statistische Auswertung bis zum Dashboard.
 
 | Projekt | Worum es geht | Techniken |
 | --- | --- | --- |
