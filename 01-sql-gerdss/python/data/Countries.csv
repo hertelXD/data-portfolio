@@ -1,0 +1,12 @@
+CountryID,CountryName,CountryCode,GridOperator,CreditLimitEUR,IsExporter,GridEmissionFactor
+1,Deutschland,DE,TenneT TSO,10000000.00,True,0.3800
+2,Niederlande,NL,TenneT NL,5000000.00,False,0.3500
+3,Oesterreich,AT,APG,3000000.00,False,0.1200
+4,Frankreich,FR,RTE,8000000.00,True,0.0600
+5,Polen,PL,PSE,4500000.00,False,0.7200
+6,Tschechien,CZ,CEPS,3500000.00,False,0.5100
+7,Daenemark,DK,Energinet,4000000.00,True,0.1500
+8,Belgien,BE,Elia,3800000.00,False,0.1800
+9,Schweiz,CH,Swissgrid,6000000.00,False,0.0200
+10,Luxemburg,LU,Creos Luxembourg,2000000.00,False,0.2500
+11,Italien,IT,Terna,5500000.00,False,0.3100

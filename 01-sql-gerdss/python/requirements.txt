@@ -1,0 +1,4 @@
+pyodbc>=5.0.0          # SQL Server database driver / SQL Server Datenbanktreiber
+pandas>=2.0.0          # Data analysis and manipulation / Datenanalyse und -verarbeitung
+numpy>=1.24.0          # Matrix operations and linear algebra / Matrixoperationen und Lineare Algebra
+python-dotenv>=1.0.0   # Environment variables loader / Laden von Umgebungsvariablen
