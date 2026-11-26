@@ -1,4 +1,4 @@
-# Data Portfolio – Aileen Hertel
+# Data Portfolio – Hertel
 
 Datenanalyse-Projekte mit SQL, Python und R – von der Datenbank über die statistische Auswertung bis zum Dashboard.
 
