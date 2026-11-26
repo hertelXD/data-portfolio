@@ -30,6 +30,18 @@ Untersucht wurde, was diese Kredite von den voll finanzierten unterscheidet: Sek
 | ![Kreditbeträge](abbildungen/1-kreditbetraege-histogramm.png) | ![Sektoren](abbildungen/2-sektoren-treemap.png) | ![Frauen und Männer](abbildungen/3-frauen-maenner-groessenklassen.png) |
 | Verteilung der Kreditbeträge | Finanzierte Summe je Sektor | Nicht voll finanziert, nach Größenklasse |
 
+## Power-BI-Dashboard
+
+Die Ergebnisse der Python-Analyse habe ich zusätzlich als Dashboard in Power BI Desktop umgesetzt. Alle Diagramme lassen sich nach Land filtern.
+
+![Power-BI-Dashboard](powerbi/dashboard.png)
+
+- **Power Query:** CSV-Import mit Trennzeichen `#`, leere Felder als *Unknown*, neue Spalten für Finanzierungsstatus, Größenklasse, Kreditnehmer-Gruppe und deutsche Sektornamen.
+- **DAX:** Measures für die Anzahl der Kredite und den Anteil nicht voll finanzierter Kredite.
+- **Gestaltung:** Hervorgehoben sind nur die Werte, auf die es ankommt. Die gestrichelte Linie zeigt den Durchschnitt aller Kredite (7,2 %).
+
+**Datei:** [`powerbi/Kiva_PowerBI.pbix`](powerbi/Kiva_PowerBI.pbix) (öffnen mit Power BI Desktop)
+
 ## Grenzen
 
 Die Analyse beschreibt Zusammenhänge, keine Ursachen. Ohne Kredit-Nummer lassen sich doppelte Zeilen nicht sicher einordnen. Kredithöhe, Sektor und Land wurden einzeln kontrolliert, nicht alle gleichzeitig.
@@ -43,4 +55,4 @@ pip install -r requirements.txt
 jupyter notebook Kiva_Explorative_Datenanalyse.ipynb
 ```
 
-**Werkzeuge:** Python, pandas, Plotly Express, Dash, Jupyter
+**Werkzeuge:** Python, pandas, Plotly Express, Dash, Jupyter, Power BI Desktop (Power Query, DAX)
